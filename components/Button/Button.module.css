@@ -1,0 +1,38 @@
+.button {
+  display: inline-block;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.primary {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+.primary:hover {
+  background-color: var(--primary-hover);
+}
+
+.ghost {
+  color: var(--black);
+  background: none;
+  border: 1px solid var(--gray-light);
+}
+
+.ghost:hover {
+  background-color: var(--gray-light);
+}
+
+.arrow {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.down {
+  transition: all 0.2s;
+  transform: rotate(90deg);
+}
