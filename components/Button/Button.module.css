@@ -1,11 +1,15 @@
 .button {
   display: inline-block;
+
   padding: 10px;
-  font-size: 14px;
-  text-align: center;
+
   cursor: pointer;
+  text-align: center;
+
   border: none;
   border-radius: 5px;
+
+  font-size: 14px;
 }
 
 .primary {
@@ -19,8 +23,8 @@
 
 .ghost {
   color: var(--black);
-  background: none;
   border: 1px solid var(--gray-light);
+  background: none;
 }
 
 .ghost:hover {
@@ -29,6 +33,7 @@
 
 .arrow {
   display: inline-block;
+
   margin-left: 10px;
 }
 

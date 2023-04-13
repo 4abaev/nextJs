@@ -1,9 +1,9 @@
-.star svg{
-    margin-right: 5px;
+.star svg {
+  margin-right: 5px;
 }
 
 .filled svg {
-    fill: var(--primary)
+  fill: var(--primary);
 }
 
 /* .star svg:focus{
@@ -12,7 +12,8 @@
 } */
 
 .editable {
-    cursor: pointer;
-    border: none;
-    transition: all .2s;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  border: none;
 }

@@ -1,17 +1,21 @@
 .tag {
   display: inline-block;
+
   margin-right: 5px;
+
   border-radius: 20px;
 }
 
 .small {
   padding: 5px 12px;
+
   font-size: 12px;
   line-height: 12px;
 }
 
 .medium {
   padding: 5px 12px;
+
   font-size: 14px;
   line-height: 14px;
 }
@@ -21,25 +25,28 @@
 }
 
 .red {
-  font-weight: bold;
   color: var(--white);
-  background-color: #DE0000;
+  background-color: #de0000;
+
+  font-weight: bold;
 }
 
 .grey {
-  font-weight: bold;
   color: var(--white);
-  background-color: #B3C0D9;
+  background-color: #b3c0d9;
+
+  font-weight: bold;
 }
 
 .green {
-  font-weight: bold;
   color: var(--green);
   background-color: var(--green-light);
+
+  font-weight: bold;
 }
 
 .primary {
   color: var(--primary);
-  background: none;
   border: 1px solid var(--primary);
+  background: none;
 }
