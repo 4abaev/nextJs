@@ -42,11 +42,21 @@
     border-left: 1px solid #dfdfdf;
 }
 
+.secondLevelBlock {
+    display: none;
+}
+
+.secondLevelBlockOpened {
+    display: block;
+}
+
 .secondLevelBlock:last-child {
     margin-bottom: 20px;
 }
 
 .thirdLevel {
+    display: grid;
+    
     margin-bottom: 10px;
 
     cursor: pointer;
@@ -61,4 +71,8 @@
 .thirdLevelActive,
 .thirdLevel:hover {
     color: var(--primary);
+}
+
+.undefined {
+    color: green;
 }

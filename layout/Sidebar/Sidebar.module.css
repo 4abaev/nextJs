@@ -1,1 +1,8 @@
-/*  dfdf  */
+.sidebar {
+    display: grid;
+    gap: 20px;
+}
+
+.logo {
+margin-top: 34px;
+}
