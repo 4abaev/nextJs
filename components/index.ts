@@ -5,3 +5,5 @@ export * from './Tag/Tag'
 export * from './Rating/Rating'
 export * from './Sort/Sort'
 export * from './Card/Card'
+export * from "./Input/Input"
+export * from "./Textarea/Textarea"
